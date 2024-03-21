@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Rajdhani-Medium";
+    src: url(../Fonts/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Rajdhani-Regular";
+    src: url(../Fonts/Rajdhani-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rajdhani-SemiBold";
+    src: url(../Fonts/Rajdhani-SemiBold.ttf);
+}
+
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Rajdhani-Regular';
+}
+
+.font-medium {
+    font-family: "Rajdhani-Medium";
+}
+
+.font-regular {
+    font-family: "Rajdhani-Regular";
+}
+
+.font-semibold {
+    font-family: "Rajdhani-SemiBold";
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.border-light-1 {
+    border: 1px solid rgb(250, 250, 250);
+}
+.bg-lightgray-243 {
+    background-color: rgb(243, 243, 243);
+}
+
+.bg-lightgray-245{
+    background-color: rgb(245,245,247);
+}
+
+.bg-lightgray-250 {
+    background-color: rgb(250, 250, 250);
+}
+
+.bg-lightgray-253 {
+    background-color: rgb(253, 253, 253);
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+.border-radius-top-20{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.border-radius-bottom-20{
+    border-radius: 0px 0px 20px 20px;
+}
+
+.border-radius-30{
+    border-radius: 30px;
+}
+
+.product-card{
+    background-color: white;
+}
+
+.img-hover:hover img {
+    transition: transform 0.5s ease;
+    transform: translateY(-5px) scale(1.05) rotate(2deg);
+}
